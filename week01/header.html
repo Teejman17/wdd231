@@ -5,6 +5,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="styles/normalize.css">
     <link rel="stylesheet" href="styles/base.css">
     <link rel="stylesheet" href="styles/larger.css">
@@ -12,12 +16,30 @@
 
 <body>
     <header>
-        <img src="images/logo.svg" alt="site logo" width="1" height="1">
-        <span>The Site Name</span>
-        <button id="nav-button" class="hamburger" aria-label="navigation"></button>
+        <img src="images/home.svg" alt="site logo" width="1" height="1">
+        <span>TJ Site Title</span>
+        <button id="ham-button" class="hamburger" aria-label="navigation"></button>
     </header>
-    <nav></nav>
-    <footer></footer>
+    <nav id="nav-bar" class="navigation">
+        <ul>
+            <li><a href="#">News & Events</a></li>
+            <li class="current"><a href="#">Dedicated Temples</a></li>
+            <li><a href="#">Announced Temples</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h1>Dedicated Temples</h1>
+    </main>
+    <footer>
+        <div class="social">
+            <a href="https://www.facebook.com/" target="_blank"><img src="images/facebook.svg" alt="facebook" width="16" height="16"></a>
+            <a href="https://github.com/" target="_blank"><img src="images/github.svg" alt="github" width="16" height="16"></a>
+            <a href="https://www.instagram.com/" target="_blank"><img src="images/instagram.svg" alt="instagram" width="16" height="16"></a>
+            <a href="https://www.linkedin.com/" target="_blank"><img src="images/linkedin.svg" alt="" width="16" height="16"></a>
+        </div>
+        <p>copyright symbol and current year</p>
+        <p>Last Modified</p>
+    </footer>
     <script src="scripts/navigation.js"></script>
 </body>
 
