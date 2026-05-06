@@ -32,14 +32,20 @@ header span {
 .hamburger {
     background: none;
     border: none;
-    font-family: Verdana;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 2rem;
     color: #3d4058;
     cursor: pointer;
 }
 
+/* .hamburger::after {
+    content: "\2630";
+    font-size: 2rem;
+} */
+
 .hamburger::before {
     content: "\2630";
+    font-size: 2rem;
 }
 
 .hamburger.show::before {
