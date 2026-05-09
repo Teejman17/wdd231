@@ -23,4 +23,39 @@
     .navigation a {
         border: none;
     }
+
+    h1 {
+        margin-left: 1rem 10px;
+        grid-column: 1 / -1;
+        padding: 8px;
+        margin: 2px;
+        /* background-color: #CEB3AB; */
+        color: #466365;
+    }
+
+    /* h2 {
+        background-color: #CEB3AB;
+        text-align: center;
+        margin: 0;
+        padding: 4px;
+    } */
+
+    main {
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        /* gap: 10px; */
+        /* margin: 2px; */
+    }
+
+    /* section {
+        margin: 10px;
+        padding: 8px;
+        background-color: #eee;
+        color: #466365;
+        border: 1px solid;
+    } */
+
+    .courses {
+        grid-column: 1 / -1;
+    }
 }
