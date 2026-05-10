@@ -85,7 +85,7 @@ header span {
 }
 
 h1 {
-    margin-left: 1rem 10px;
+    margin-left: 1rem;
     grid-column: 1 / -1;
     padding: 8px;
     margin: 2px;
@@ -99,6 +99,7 @@ h2 {
     margin: 0;
     padding: 4px;
 }
+
 main {
     display: block;
 }
@@ -111,26 +112,89 @@ section {
     border: 1px solid;
 }
 
-.courses ul {
-    display: grid;
-    grid-template-columns: 1fr, 1fr, 1fr;
-    list-style: none;
-    /* text-align: center; */
-    justify-content: center;
-    align-items: center;
-    padding: 0;
-    /* gap: 10px; */
+.studentImg h2 {
+    width: 100%;
 }
+
+.studentImg {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.studentImg img {
+    display: block;
+    margin: 10px auto;
+    width: 100%;
+    height: auto;
+}
+
+.filters {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    /* justify-content: space-evenly; */
+}
+
+.filters button {
+    padding: 8px 25px;
+    margin-top: 10px;
+    color: #466365;
+    background-color: #ccc;
+    border: solid 1px #466365;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.filters button:hover {
+    background-color: #B49A67;
+}
+
+#courseList {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    list-style: none;
+    padding: 0;
+    gap: 10px;
+}
+
+#courseList li {
+    padding: 10px;
+    background-color: #ccc;
+    color: #333;
+    text-align: center;
+    border-radius: 8px;
+}
+
+#courseList li.completed {
+    background-color: #466365;
+    color: white;
+    border: 1px solid #2c3e40;
+}
+/* .courses ul {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    list-style: none;
+    padding: 0;
+    text-align: center;
+    gap: 10px;
+} */
+
 
 
 .courses p {
     text-align: center;
+    color: #466365;
 }
 
 footer {
     background-color: #CEB3AB;
     padding: 1rem 10px;
     text-align: center;
+    color: #466365;
 }
 
 .social {
@@ -157,3 +221,7 @@ footer {
     width: 24px;
     height: 24px;
 }
+
+/* camel - #B49A67 
+granite - #466365 
+almond silk - #CEB3AB */

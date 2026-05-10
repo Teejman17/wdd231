@@ -35,27 +35,32 @@
         </section>
         <section class="studentImg">
             <h2>Student Photo</h2>
-            <img src="" alt="">
+            <img src="/images/student-photo.jpg" alt="student photo">
         </section>
         <section class="courses">
             <h2>Web Certificates Courses</h2>
-            <ul>
-                <li>WDD130</li>
+            <div class="filters">
+                <button id="all">All</button>
+                <button id="cse">CSE</button>
+                <button id="wdd">WDD</button>
+            </div>
+            <ul id="courseList">
+                <!-- <li>WDD130</li>
                 <li>WDD131</li>
-                <li>WDD231</li>
+                <li>WDD231</li> -->
             </ul>
-            <p>The total credits for the courses listed above are 6</p>
+            <p>The total credits for the courses listed above are <span id="totalCredits">0</span></p>
         </section>
     </main>
     <footer>
         <div class="social">
             <a href="https://github.com/Teejman17/wdd231"><img src="images/github.svg" alt="github" width="16" height="16"></a>
-            <a href="https://www.linkedin.com/in/tracy-mccoy-928490172/"><img src="images/linkedin.svg" alt="linkedin" width="16" height=""16></a>
+            <a href="https://www.linkedin.com/in/tracy-mccoy-928490172/"><img src="images/linkedin.svg" alt="linkedin" width="16" height="16"></a>
             <a href="https://www.facebook.com/" target="_blank"><img src="images/facebook.svg" alt="facebook" width="16" height="16"></a>
             <a href="https://www.instagram.com/" target="_blank"><img src="images/instagram.svg" alt="instagram" width="16" height="16"></a>
         </div>
-        <p>&copy; <span id="currentyear"></span> 2026 | TJ McCoy | Utah, USA</p>
-        <p>Last Modified</p>
+        <p>&copy; <span id="currentYear"></span> | TJ McCoy | Utah, USA</p>
+        <p id="lastModified"></p>
     </footer>
     <script src="scripts/navigation.js"></script>
 </body>
