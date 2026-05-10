@@ -112,7 +112,25 @@ section {
     border: 1px solid;
 }
 
-.studentImg h2 {
+.bio {
+    display: flex;
+    flex-direction: column;
+    min-height: 250px;
+}
+
+.bio p {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+    margin: 0;
+
+}
+
+
+.studentImg h2, .bio h2 {
     width: 100%;
 }
 
