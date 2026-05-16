@@ -1,0 +1,23 @@
+{
+    "familyName": "McCoy",
+    "moveInDate": "01/01/2026",
+    "familySize": 4,
+    "bishopricVisit": false,
+    "familyMembers": [
+        {
+            "name": "TJ McCoy",
+            "gender": "Male",
+            "birthdate": "02/16/2026"
+        },
+        {
+            "name": "TJ McCoy",
+            "gender": "Male",
+            "birthdate": "01/01/2026"
+        },
+        {
+            "name": "Teejay McCoy",
+            "gender": "male",
+            "birthdate": "01/15/2026"
+        }
+    ]
+}
