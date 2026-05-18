@@ -32,7 +32,7 @@ header img {
 header span {
     font-size: 1.2rem;
     font-weight: bold;
-    color: #466365;
+    color: #000;
 }
 
 .hamburger {
@@ -40,7 +40,7 @@ header span {
     border: none;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 1.5rem;
-    color: #466365;
+    color: #000;
     cursor: pointer;
 }
 
@@ -71,7 +71,7 @@ header span {
 .navigation a {
     display: block;
     padding: .5rem 10px;
-    color: #466365;
+    color: #000;
     text-decoration: none;
     border-bottom: solid 1px #ccc;
 }
@@ -90,7 +90,7 @@ h1 {
     padding: 8px;
     margin: 2px;
     /* background-color: #CEB3AB; */
-    color: #466365;
+    color: #000;
 }
 
 h2 {
@@ -108,7 +108,7 @@ section {
     margin: 10px;
     padding: 8px;
     background-color: #eee;
-    color: #466365;
+    color: #000;
     border: 1px solid;
 }
 
@@ -160,7 +160,7 @@ section {
 .filters button {
     padding: 8px 25px;
     margin-top: 10px;
-    color: #466365;
+    color: #000;
     background-color: #ccc;
     border: solid 1px #466365;
     border-radius: 10px;
@@ -182,13 +182,13 @@ section {
 #courseList li {
     padding: 10px;
     background-color: #ccc;
-    color: #333;
+    color: #000;
     text-align: center;
     border-radius: 8px;
 }
 
 #courseList li.completed {
-    background-color: #466365;
+    background-color: #3D5557;
     color: white;
     border: 1px solid #2c3e40;
 }
@@ -205,14 +205,14 @@ section {
 
 .courses p {
     text-align: center;
-    color: #466365;
+    color: #000;
 }
 
 footer {
     background-color: #CEB3AB;
     padding: 1rem 10px;
     text-align: center;
-    color: #466365;
+    color: #000;
 }
 
 .social {
