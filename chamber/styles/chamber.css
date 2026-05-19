@@ -91,6 +91,11 @@ header img {
     padding: 6px;
 }
 
+h1 {
+    margin-left: 1rem;
+    color: #240B36;
+}
+
 /* FOOTER */
 
 footer {
