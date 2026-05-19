@@ -1,14 +1,15 @@
 /* color palette 
 https: //coolors.co/f2dc5d-f2a359-db9065-a4031f-240b36 
 Lemon Chiffon #FAF3C7 with background Ruby Red #A4031F
-Sandy Brown #F2A359 with background Dark Amethyst #240B36*/ 
+Sandy Brown #F2A359 with background Dark Amethyst #240B36*/
+
 
 header {
     display: grid;
     grid-template-columns: auto 1fr auto;
     align-items: center;
-    padding: 1rem 4rem;
-    margin: 1rem;
+    padding: 10px;
+    margin: 5px;
     background-color: #240B36;
 }
 
@@ -21,7 +22,8 @@ header img {
     display: block;
     width: 42px;
     height: auto;
-    /* background-color: white; */
+    /* background-color: gray; */
+    /* border-radius: 10px; */
 }
 
 .logoContainer {
@@ -37,7 +39,6 @@ header img {
 /* HAMBURGER */
 
 .hamburger {
-    display: none;
     background: none;
     border: none;
     justify-self: end;
@@ -60,7 +61,7 @@ header img {
 
 .navigation {
     display: none;
-    /* justify-self: end; */
+    justify-self: end;
 }
 
 .navigation.show {
@@ -68,16 +69,13 @@ header img {
 }
 
 .navigation ul {
-    display: flex;
-    align-items: center;
     list-style-type: none;
-    margin: 0 15px 0 0;
     padding: 0;
-    gap: 20px;
 }
 
 .navigation a {
     display: block;
+    padding: 5px 10px;
     text-decoration: none;
     color: #F2A359;
 }
@@ -96,6 +94,36 @@ header img {
 /* FOOTER */
 
 footer {
-    display: grid;
-
+    align-items: center;
+    padding: 10px;
+    margin: 5px;
+    background-color: #240B36;
+    color: #F2A359;
 }
+
+.social {
+    display: flex;
+    justify-content: center;
+    column-gap: 10px;
+}
+
+.social a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 44px;
+    height: 44px;
+    border: #F2A359 solid 1px;
+    border-radius: 22px;
+}
+
+.social img {
+    width: 22px;
+    height: 22px;
+    color: #F2A359;
+}
+
+.social a:hover {
+    background-color: #ddd;
+}
+

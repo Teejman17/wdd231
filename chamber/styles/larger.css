@@ -1,4 +1,4 @@
-@media only screen and (min-width: 500px) {
+@media only screen and (min-width: 725px) {
     header {
         grid-template-columns: auto 1fr auto;
         padding: 1rem;
@@ -6,7 +6,7 @@
     
     
     .hamburger {
-        display: block;
+        display: none;
         justify-self: end;
     }
 
@@ -22,5 +22,20 @@
 
     .navigation a {
         border: none;
+    }
+
+    footer {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .contact {
+        text-align: justify;
+        padding-left: 10px;
+        margin-left: 2rem;
+    }
+
+    .author {
+        text-align: justify;
     }
 }
