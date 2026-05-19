@@ -1,0 +1,101 @@
+/* color palette 
+https: //coolors.co/f2dc5d-f2a359-db9065-a4031f-240b36 
+Lemon Chiffon #FAF3C7 with background Ruby Red #A4031F
+Sandy Brown #F2A359 with background Dark Amethyst #240B36*/ 
+
+header {
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    align-items: center;
+    padding: 1rem 4rem;
+    margin: 1rem;
+    background-color: #240B36;
+}
+
+header span {
+    font-size: 1.2rem;
+    color: #F2A359;
+}
+
+header img {
+    display: block;
+    width: 42px;
+    height: auto;
+    /* background-color: white; */
+}
+
+.logoContainer {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.logoContainer span {
+    font-weight: 450;
+}
+
+/* HAMBURGER */
+
+.hamburger {
+    display: none;
+    background: none;
+    border: none;
+    justify-self: end;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 2rem;
+    cursor: pointer;
+    color: #F2A359;
+}
+
+.hamburger::before {
+    content: "\2630";
+    font-size: 2rem;
+}
+
+.hamburger.show::before {
+    content: "\00D7";
+}
+
+/* NAVIGATION */
+
+.navigation {
+    display: none;
+    /* justify-self: end; */
+}
+
+.navigation.show {
+    display: block;
+}
+
+.navigation ul {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    margin: 0 15px 0 0;
+    padding: 0;
+    gap: 20px;
+}
+
+.navigation a {
+    display: block;
+    text-decoration: none;
+    color: #F2A359;
+}
+
+.navigation li.current {
+    border-bottom: 2px solid #F2A359;
+    padding: 2px;
+}
+
+.navigation a:hover {
+    background-color: #F2A359;
+    color: #240B36;
+    padding: 6px;
+}
+
+/* FOOTER */
+
+footer {
+    display: grid;
+
+}

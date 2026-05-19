@@ -1,0 +1,26 @@
+@media only screen and (min-width: 500px) {
+    header {
+        grid-template-columns: auto 1fr auto;
+        padding: 1rem;
+    }
+    
+    
+    .hamburger {
+        display: block;
+        justify-self: end;
+    }
+
+    .navigation {
+        display: block;
+    }
+
+    .navigation ul {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .navigation a {
+        border: none;
+    }
+}
