@@ -1,4 +1,5 @@
-[
+{
+    "members": [
     {
         "companyName": "St. George Cleaners",
         "companyAddress": "123 Carpet Lane, St. George, UT 84770",
@@ -70,5 +71,5 @@
         "establishedYear": 2019
     }
 
-
 ]
+}

@@ -96,6 +96,11 @@ h1 {
     color: #240B36;
 }
 
+#memberSection {
+    display: grid;
+    
+}
+
 /* FOOTER */
 
 footer {
