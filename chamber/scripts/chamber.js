@@ -20,13 +20,15 @@ const displayMembers = (members) => {
         let level = document.createElement('p');
         let slogan = document.createElement('p');
         let established = document.createElement('p');
+
         name.textContent = member.companyName;
         address.textContent = member.companyAddress;
         phone.textContent = `Phone: ${member.phoneNumber}`;
         slogan.textContent = `"${member.slogan}"`;
         established.textContent = member.establishedYear;
+        website.href = member.website;
+        website.textContent = `Visit ${member.companyName}'s website`;
 
-        website.setAttribute('href', member.website);
         img.setAttribute('src', `images/${member.img}`);
         img.setAttribute('alt', `member image`);
         img.setAttribute('loading', 'lazy');
@@ -38,8 +40,8 @@ const displayMembers = (members) => {
         if (member.membership == 3) membershipLevel = 'Gold Member';
         level.textContent = `Level: ${membershipLevel}`;
 
-        card.appendChild(img);
         card.appendChild(name);
+        card.appendChild(img);
         card.appendChild(address);
         card.appendChild(phone);
         card.appendChild(slogan);
@@ -64,21 +66,17 @@ getMemberData();
 
 const gridButton = document.querySelector('#gridButton');
 const listButton = document.querySelector('#listButton');
-const displayMenu = document.querySelector('#memberSection');
-
-gridButton.addEventListener('click', () => {
-    displayMenu.classList.add('grid');
-    displayMenu.classList.remove('list');
-    gridButton.classList.add('active');
-    listButton.classList.remove('active');
-});
+const displayMenu = document.querySelector('#membersSection');
 
 listButton.addEventListener('click', () => {
     displayMenu.classList.add('list');
-    displayMenu.classList.remove('gird');
-    listButton.classList.add('active');
-    gridButton.classList.remove('active');
 });
+    
+gridButton.addEventListener('click', () => {
+    displayMenu.classList.remove('list');
+    
+});
+
 
 const year = document.getElementById('currentYear');
 const currentYear = new Date().getFullYear();

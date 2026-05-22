@@ -96,9 +96,52 @@ h1 {
     color: #240B36;
 }
 
-#memberSection {
+/* MENU */
+
+.menu {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-left: 1rem;
+}
+
+.menu button {
+    padding: 10px 25px;
+    cursor: pointer;
+}
+
+#membersSection {
     display: grid;
-    
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    padding: 1rem;
+}
+
+#membersSection section {
+    padding: 10px;
+    text-align: center;
+}
+
+#membersSection.list {
+    grid-template-columns: 1fr;
+}
+
+#membersSection.list section {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    text-align: left;
+    gap: 10px;
+    align-items: center;
+}
+
+#membersSection img {
+    max-width: 100%;
+    height: 150px;
+    object-fit: cover;
+    margin-bottom: 15px;
+    border-radius: 8px;
+
 }
 
 /* FOOTER */
