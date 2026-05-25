@@ -11,7 +11,7 @@ const myKey = "776cef31d554a322795d49a08404ba59"
 const myLat = "49.75"
 const myLong = "6.63"
 
-const url = 'https://api.openweathermap.org/data/2.5/weather?lat=49.75&lon=6.64&units=metric&appid=776cef31d554a322795d49a08404ba59';
+const url = 'https://api.openweathermap.org/data/2.5/weather?lat=49.75&lon=6.64&units=imperial&appid=776cef31d554a322795d49a08404ba59';
 
 const myURL = `//api.openweathermap.org/data/2.5/weather?lat=${myLat}&lon=${myLong}&units=imperial&appid=${myKey}`
 
