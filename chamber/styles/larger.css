@@ -24,6 +24,38 @@
         border: none;
     }
 
+    main {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 10px;
+    }
+
+    h1, .hero {
+        grid-column: span 4;
+    }
+
+    .events {
+        grid-column: span 2;
+    }
+
+    .weather {
+        grid-column: span 1;
+    }
+
+    .forecast {
+        grid-column: span 1;
+    }
+
+    .spotlight {
+        grid-column: span 4;
+    }
+    
+    #spotlightCards {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 15px;
+    }
+
     footer {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;

@@ -16,7 +16,7 @@
         "phoneNumber": "435-435-4351",
         "website": "https://redcanconstruction.com",
         "img": "rcConstruction.jpg",
-        "membership": "3",
+        "membership": 3,
         "slogan": "We build it, they will come.",
         "establishedYear": 2020
     },
@@ -26,7 +26,7 @@
         "phoneNumber": "435-435-4358",
         "website": "https://tacosutah.com",
         "img": "tacosSGU.jpg",
-        "membership": "1",
+        "membership": 1,
         "slogan": "Let's tacobout it!",
         "establishedYear": 2025
     },
@@ -36,7 +36,7 @@
         "phoneNumber": "435-435-4359",
         "website": "https://dirtfunutah.com",
         "img": "offroad.jpg",
-        "membership": "3",
+        "membership": 3,
         "slogan": "If you're not dirty, you didn't do it right!",
         "establishedYear": 2015
     },
@@ -46,7 +46,7 @@
         "phoneNumber": "435-4350",
         "website": "https://golfsgu.com",
         "img": "golfsgu.jpg",
-        "membership": "3",
+        "membership": 3,
         "slogan": "Just tap it in, just tap it in.",
         "establishedYear": 2017
     },
@@ -56,7 +56,7 @@
         "phoneNumber": "435-435-4351",
         "website": "https://windowsrus.com",
         "img": "windowsRUS.jpg",
-        "membership": "2",
+        "membership": 2,
         "slogan": "We clean 'em and they stay clean.",
         "establishedYear": 2021
     },
@@ -66,7 +66,7 @@
         "phoneNumber": "435-435-4352",
         "website": "https://poolguys.com",
         "img": "poolguys.jpg",
-        "membership": "3",
+        "membership": 3,
         "slogan": "Let's dive right in!",
         "establishedYear": 2019
     }
