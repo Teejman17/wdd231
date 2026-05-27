@@ -180,7 +180,7 @@ h1 {
 
 /* EVENT/WEATHER SECTION */
 
-main {
+.homeContainer {
     display: flex;
     flex-direction: column;
     margin: 0 auto;
