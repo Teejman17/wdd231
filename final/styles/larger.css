@@ -1,0 +1,73 @@
+@media only screen and (min-width: 725px) {
+    header {
+        grid-template-columns: auto 1fr auto;
+        padding: 1rem;
+    }
+    
+    
+    .hamburger {
+        display: none;
+        justify-self: end;
+    }
+
+    .navigation {
+        display: block;
+    }
+
+    .navigation ul {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .navigation a {
+        border: none;
+    }
+
+    .homeContainer {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 10px;
+    }
+
+    h1, .hero {
+        grid-column: span 4;
+    }
+
+    .events {
+        grid-column: span 2;
+    }
+
+    .weather {
+        grid-column: span 1;
+    }
+
+    .forecast {
+        grid-column: span 1;
+    }
+
+    .spotlight {
+        grid-column: span 4;
+    }
+    
+    #spotlightCards {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 15px;
+    }
+
+    footer {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .contact {
+        text-align: justify;
+        padding-left: 10px;
+        margin-left: 2rem;
+    }
+
+    .author {
+        text-align: justify;
+    }
+}
