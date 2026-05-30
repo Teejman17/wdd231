@@ -34,6 +34,5 @@ displayItems(temples);
 
 function showStuff(x) {
     myTitle.innerHTML = x.name
-    myDialogue
     myDialogue.showModal()
 }
