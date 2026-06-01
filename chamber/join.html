@@ -43,11 +43,68 @@
         <button id="hamButton" class="hamburger"></button>
     </header>
     <main>
-        <form method="GET" action="thankyou.html">
-            <label for="">First Name <input type="text" name="first" required autocomplete="given-name" title="Your First Name"></label>
-            <label for="">Last Name <input type="text" name="last" required autocomplete="family-name" title="Your Last Name"></label>
+        <div class="form">
+            <h1>Chamber Membership Application</h1>
+            <form method="GET" action="thankyou.html" class="designOne">
+                <label>First Name <input type="text" name="first" required autocomplete="given-name" title="Your First Name"></label>
+                <label for="">Last Name <input type="text" name="last" required autocomplete="family-name" title="Your Last Name"></label>
+                <label>TItle <input type="text" name="title" autocomplete="organizational-title" title="Your Organizational Title" pattern="[A-Za-z\s\-]{7,}"></label>
+                <label>Email <input type="email" name="email" required autocomplete="email" placeholder="myemail@gmail.com" title="Your Email">"</label>
+                <label>Cell Phone <input type="tel" name="phone" required autocomplete="tel" placeholder="123-456-7890"></label>
+                <label>Organization <input type="text" name="organization" required autocomplete="organization" title="Your Organization"></label>
 
-        </form>
+                <label>Membership Levels
+                    <select name="membershipLevel" required title="Membership Levels">
+                        <option value="" disabled selected>Select Membership</option>
+                        <option value="np">NP Membership(non-profit) / No Fee</option>
+                        <option value="bronze">Bronze Membership</option>
+                        <option value="silver">Silver Membership</option>
+                        <option value="gold">Gold Membership</option>
+                    </select>
+                </label>
+
+                <label>Business Description
+                    <textarea name="description" title="description"></textarea>
+                </label>
+
+                <input type="hidden" name="timestamp" id="timestamp">
+
+                <input type="submit" value="Submit Application">
+
+            </form>
+        </div>
+
+        <div class="membershipLevels">
+            <h2>Membership Levels</h2>
+            <section class="membershipCards">
+                <div class="card">
+                    <h3>Non Profit Membership Level</h3>
+                    <button type="button" class="modalOpen" data-modal="npModal">Learn More</button>
+                </div>
+                <div class="card">
+                    <h3>Bronze Membership Level</h3>
+                    <button type="button" class="modalOpen" data-modal="bronzeModal"></button>
+                </div>
+                <div class="card">
+                    <h3>Silver Membership Level</h3>
+                    <button type="button" class="modalOpen" data-modal="silverModal"></button>
+                </div>
+                <div class="card">
+                    <h3>Gold Membership Level</h3>
+                    <button type="button" class="modalOpen" data-modal="goldModal"></button>
+                </div>
+            </section>
+
+        </div>
+
+        <dialog id="npModal">
+            <h2>NP Membeship Benefits</h2>
+            <p></p>
+            <button type="button" class="modalClose">Close</button>
+        </dialog>
+        <dialog>
+            
+        </dialog>
     </main>
     <footer>
         <div class="contact">
