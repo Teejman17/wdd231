@@ -17,7 +17,7 @@ const modalClose = document.querySelectorAll('.modalClose');
 modalOpen.forEach(button => {
     button.addEventListener('click', () => {
         const modalId = button.getAttribute('data-modal');
-        const targatModal = getElementById(modalId);
+        const targetModal = document.getElementById(modalId);
 
         if (targetModal) {
             targetModal.showModal();

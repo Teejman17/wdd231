@@ -67,6 +67,11 @@
         width: 50%;
     }
 
+    dialog {
+        margin-right: 100px;
+        margin-left: auto;
+    }
+
     .membershipLevels {
         display: inline-block;
         width: 40%;
