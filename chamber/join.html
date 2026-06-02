@@ -48,8 +48,8 @@
             <form method="GET" action="thankyou.html" class="designOne">
                 <label>First Name <input type="text" name="first" required autocomplete="given-name" title="Your First Name"></label>
                 <label for="">Last Name <input type="text" name="last" required autocomplete="family-name" title="Your Last Name"></label>
-                <label>TItle <input type="text" name="title" autocomplete="organizational-title" title="Your Organizational Title" pattern="[A-Za-z\s\-]{7,}"></label>
-                <label>Email <input type="email" name="email" required autocomplete="email" placeholder="myemail@gmail.com" title="Your Email">"</label>
+                <label>TItle <input type="text" name="title" autocomplete="organization-title" title="Your Organizational Title" pattern="[A-Za-z\s\-]{7,}"></label>
+                <label>Email <input type="email" name="email" required autocomplete="email" placeholder="myemail@gmail.com" title="Your Email"></label>
                 <label>Cell Phone <input type="tel" name="phone" required autocomplete="tel" placeholder="123-456-7890"></label>
                 <label>Organization <input type="text" name="organization" required autocomplete="organization" title="Your Organization"></label>
 
@@ -83,15 +83,15 @@
                 </div>
                 <div class="card">
                     <h3>Bronze Membership Level</h3>
-                    <button type="button" class="modalOpen" data-modal="bronzeModal"></button>
+                    <button type="button" class="modalOpen" data-modal="bronzeModal">Learn More</button>
                 </div>
                 <div class="card">
                     <h3>Silver Membership Level</h3>
-                    <button type="button" class="modalOpen" data-modal="silverModal"></button>
+                    <button type="button" class="modalOpen" data-modal="silverModal">Learn More</button>
                 </div>
                 <div class="card">
                     <h3>Gold Membership Level</h3>
-                    <button type="button" class="modalOpen" data-modal="goldModal"></button>
+                    <button type="button" class="modalOpen" data-modal="goldModal">Learn More</button>
                 </div>
             </section>
 
@@ -99,11 +99,23 @@
 
         <dialog id="npModal">
             <h2>NP Membeship Benefits</h2>
-            <p></p>
+            <p>Become a member of the Non Profit directory, to better serve the community.This membership includes a list of publishing benefits. Access to non profit networking events, and the power to request support from the community as well as other Non profits. No annual subscription.</p>
             <button type="button" class="modalClose">Close</button>
         </dialog>
-        <dialog>
-            
+        <dialog id="bronzeModal">
+            <h2>Bronze Membership Benefits</h2>
+            <p>Ideal option for start-up businesses. Bronze membership includes support from business professionals in the community with advertising opportunities and counsel. As well as, quarterly social events. Subscription fee for every 3 months. </p>
+            <button type="button" class="modalClose">Close</button>
+        </dialog>
+        <dialog id="silverModal">
+            <h2>Silver Membership Benefits</h2>
+            <p>For serious business entrepreneurs looking to expand their target market. Silver membership includes all benefits from the bronze membership, plus an invitation to quarterly financial events with access to participate in newsletter every quarter. SUbscription fee for every 6 months</p>
+            <button type="button" class="modalClose">Close</button>
+        </dialog>
+        <dialog id="goldModal">
+            <h2>Gold Membership Benefits</h2>
+            <p>The VIP option. Gold membership includes all benefits from bronze/silver membership plus additional support for social media platforms as well as the opportunity to participate in the monthly newsletter. Invitation to participate in seminars and luncheons when available. Subscription required for every 12 months.</p>
+            <button type="button" class="modalClose">Close</button>
         </dialog>
     </main>
     <footer>

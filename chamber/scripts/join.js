@@ -6,3 +6,11 @@ navButton.addEventListener('click', () => {
     navLinks.classList.toggle('show');
 });
 
+document.querySelector('#timestamp').value = new Date().toLocaleString();
+
+const modalOpen = document.querySelector('.modalOpen');
+const modalClose = document.querySelector('.modalClose');
+
+modalOpen.forEach(button => {
+    const
+})

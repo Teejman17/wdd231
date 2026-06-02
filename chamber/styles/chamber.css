@@ -282,6 +282,52 @@ h2 {
     cursor: pointer;
 }
 
+/* JOIN PAGE FORM */
+
+.form {
+    /* padding: 1rem; */
+}
+
+.form h1 {
+    color: #FAF3C7;
+    background-color: #A4031F;
+    margin: 5px;
+    border-radius: 6px;
+    text-align: center;
+}
+
+form label {
+    display: block;
+    margin: 5px;
+    /* margin-bottom: 1rem; */
+    padding: 10px;
+}
+
+form input[type="text"],
+form input[type="email"],
+form input[type="tel"],
+form select,
+form textarea {
+    display: block;
+    width: 100%;
+    padding: 2px;
+    border-radius: 8px;
+}
+
+form input[type="submit"] {
+    margin: 12px;
+    padding: 5px;
+    cursor: pointer;
+    border-radius: 8px;
+    background-color: #F2A359;
+    color: #240B36;
+    /* width: 50%; */
+}
+
+form input[type="submit"]:hover {
+    background-color: #240B36;
+}
+
 /* FOOTER */
 
 footer {
