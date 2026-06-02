@@ -342,8 +342,8 @@ form select:required {
     border-left: 6px solid #A4031F;
 }
 
-form input:user-valid,
-form select:user-valid {
+form input:required:valid,
+form select:required:valid {
     border-color: forestgreen;
 }
 
