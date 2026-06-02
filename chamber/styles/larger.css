@@ -56,6 +56,29 @@
         gap: 15px;
     }
 
+    .form {
+        display: inline-block;
+        width: 55%;
+        margin-left: 5px;
+        vertical-align: top;
+    }
+
+    form input[type="submit"] {
+        width: 50%;
+    }
+
+    .membershipLevels {
+        display: inline-block;
+        width: 40%;
+        vertical-align: top;
+    }
+
+    .membershipCards {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
     footer {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;

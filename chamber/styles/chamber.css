@@ -284,11 +284,20 @@ h2 {
 
 /* JOIN PAGE FORM */
 
-.form {
-    /* padding: 1rem; */
-}
+/* .form {
+    padding: 1rem;
+} */
 
 .form h1 {
+    color: #FAF3C7;
+    background-color: #A4031F;
+    margin: 5px;
+    border-radius: 6px;
+    text-align: center;
+    padding: 3px;
+}
+
+.membershipLevels h2 {
     color: #FAF3C7;
     background-color: #A4031F;
     margin: 5px;
@@ -315,18 +324,65 @@ form textarea {
 }
 
 form input[type="submit"] {
-    margin: 12px;
+    margin: 12px auto;
+    display: block;
     padding: 5px;
     cursor: pointer;
     border-radius: 8px;
     background-color: #F2A359;
     color: #240B36;
-    /* width: 50%; */
 }
 
 form input[type="submit"]:hover {
-    background-color: #240B36;
+    background-color: #f1c69e;
 }
+
+form input:required,
+form select:required {
+    border-left: 6px solid #A4031F;
+}
+
+form input:user-valid,
+form select:user-valid {
+    border-color: forestgreen;
+}
+
+.card {
+    padding: 17px;
+    background-color: #bbb;
+    border: 1px solid gray;
+    margin: 10px;
+    border-radius: 4px 12px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, .4);
+}
+
+.card h3 {
+    margin: 15px;
+}
+
+.modalOpen, .modalClose {
+    background-color: #fff;
+    border: 1px solid #bbb;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.modalOpen:hover {
+    background-color: #eee;
+}
+
+dialog {
+    border-radius: 8px;
+    padding: 15px;
+    max-width: 500px;
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.25);
+}
+
+dialog::backdrop {
+    background-color: gray;
+}
+
 
 /* FOOTER */
 
