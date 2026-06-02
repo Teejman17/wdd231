@@ -23,12 +23,29 @@
     <link rel="icon" href="/favicon_commerce.ico">
     <!-- <script src="scripts/chamber.js" defer></script> -->
 </head>
+<header>
+    <div class="logoContainer">
+        <img src="images/mountain-icon.svg" alt="logo">
+        <span>St. George Chamber of Commerce</span>
+    </div>
 
+    <nav id="navBar" class="navigation">
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Directory</a></li>
+            <li><a href="#">Discover</a></li>
+            <li class="current"><a href="#">Join</a></li>
+        </ul>
+    </nav>
+
+    <button id="hamButton" class="hamburger"></button>
+</header>
 <body>
     <main>
         <div class="thankYou">
             <h2>Thank you for registering!</h2>
             <p>Congratulations! You have successfully submitted your application to join the St. George City Commerce. A representative will reach out in the next 48 hours. Below is the data we received.</p>
+            <div id="submittedData"></div>
         </div>
     </main>
 </body>

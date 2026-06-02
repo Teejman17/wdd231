@@ -397,6 +397,22 @@ dialog::backdrop {
     backdrop-filter: blur(5px);
 }
 
+/* Thank You Page */
+
+.thankYou {
+    padding: 10px;
+    margin: 15px auto;
+}
+
+#submittedData {
+    border-bottom: 2px solid #F2A359;
+    border-top: 2px solid #F2A359;
+}
+
+#submittedData p {
+    margin: 20px;
+}
+
 
 /* FOOTER */
 
