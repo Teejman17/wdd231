@@ -355,6 +355,19 @@ form select:user-valid {
     border-radius: 4px 12px;
     text-align: center;
     box-shadow: 0 4px 6px rgba(0, 0, 0, .4);
+    animation: cardIntro 2.5s ease-out forwards;
+}
+
+@keyframes cardIntro {
+    0% {
+        opacity: 0;
+        transform: translate(20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translate(0);
+
+    }
 }
 
 .card h3 {

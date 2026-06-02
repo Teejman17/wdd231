@@ -6,11 +6,30 @@ navButton.addEventListener('click', () => {
     navLinks.classList.toggle('show');
 });
 
-document.querySelector('#timestamp').value = new Date().toLocaleString();
+const timestamp = document.querySelector('#timestamp');
+    if (timestamp) {
+        timestamp.value = new Date().toLocaleString();
+    }
+    
+const modalOpen = document.querySelectorAll('.modalOpen');
+const modalClose = document.querySelectorAll('.modalClose');
 
-const modalOpen = document.querySelector('.modalOpen');
-const modalClose = document.querySelector('.modalClose');
+modalOpen.forEach(button => {
+    button.addEventListener('click', () => {
+        const modalId = button.getAttribute('data-modal');
+        const targatModal = getElementById(modalId);
 
-// modalOpen.forEach(button => {
-//     const
-// })
+        if (targetModal) {
+            targetModal.showModal();
+        }
+    });
+});
+
+modalClose.forEach(button => {
+    button.addEventListener('click', () => {
+        const modal = button.closest('dialog');
+        if (modal) {
+            modal.close();
+        }
+    });
+});
