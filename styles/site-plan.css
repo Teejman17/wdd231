@@ -1,0 +1,59 @@
+* {
+    padding: 0 5px;
+}
+
+div {
+    display: block;
+    gap: 5px;
+}
+h1 {
+    display: block;
+    background-color: #78290F;
+    color: #FFECD1;
+    text-align: center;
+}
+
+.intro, .scenarios, .details {
+    background-color: #F4F1EA;
+    color: #2B2D2F;
+    margin-bottom: 15px;
+    padding: 2px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+
+.scenarios {
+    background-color: #FFECD1;
+}
+
+.wireframe {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+.wireframeCard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 350px;
+}
+
+.wireframeCard img {
+    display: block;
+    width: 100%;
+    height: auto;
+    padding-bottom: 15px;
+}
+
+footer {
+    background-color: #78290F;
+    color: #FFECD1;
+    text-align: center;
+    padding: 5px;
+}
