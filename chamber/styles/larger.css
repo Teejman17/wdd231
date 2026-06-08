@@ -1,4 +1,4 @@
-@media only screen and (min-width: 725px) {
+@media only screen and (min-width: 1024) {
     header {
         grid-template-columns: auto 1fr auto;
         padding: 1rem;
@@ -83,6 +83,23 @@
         flex-direction: column;
         gap: 10px;
     }
+
+    #gridArea {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .attraction-card {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas: 
+        "photo name"
+        "photo description"
+        "photo address"
+        "button";
+    }
+
+    .attraction-card h2 {}
 
     footer {
         display: grid;

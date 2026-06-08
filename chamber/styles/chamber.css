@@ -413,6 +413,76 @@ dialog::backdrop {
     margin: 20px;
 }
 
+/* Discover Page */
+
+/* #gridArea {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 8px;
+    margin: 0 auto;
+    gap: 12px;
+}
+.attraction-card {
+    display: grid;
+    border: 1px solid #bbb;
+    background-color: #ccc;
+
+} */
+
+#gridArea {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.attraction-card {
+    margin: 1rem 8px;
+    border: 1px solid #999;
+    background-color: #eee;
+    border-radius: 8px;
+    overflow: hidden;
+
+    display: grid;
+    grid-template-areas: 
+    "name"
+    "img"
+    "description"
+    "address"
+    "button";
+}
+
+.attraction-card h2 {
+    margin: 1rem 10px;
+    grid-area: name;
+}
+
+.attraction-card img {
+    width: 100%;
+    height: auto;
+    grid-area: img;
+}
+
+.attraction-card p {
+    margin: 1rem 10px;
+    grid-area: description;
+}
+
+.attraction-card address {
+    margin: 1rem 10px;
+    grid-area: address;
+}
+
+.attraction-card button {
+    margin: 1rem 10px;
+    justify-self: start;
+    background-color: white;
+    grid-area: button;
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+.attraction-card button:hover {
+    background-color: whitesmoke;
+}
 
 /* FOOTER */
 

@@ -1,0 +1,34 @@
+@media only screen and (min-width: 641px) {
+
+    .attraction-card {
+        grid-template-areas:
+            "img name"
+            "img description"
+            "img address"
+            "button button";
+    }
+
+    .attraction-card figure {
+        width: 300px;
+        grid-area: img;
+        width: 300px;
+        overflow: hidden;
+        border-radius: 8px;
+    }
+
+    .attraction-card h2 {
+        padding: 10px 14px;
+        align-self: start;
+    }
+
+    .attraction-card img {
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+    }
+
+    .attraction-card button {
+        grid-area: button;
+        margin-left: 20px;
+    }
+}
