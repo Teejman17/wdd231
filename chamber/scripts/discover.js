@@ -24,13 +24,20 @@ function displayItems(attractions) {
         button.classList.add('attraction-button');
         button.type = "button";
         button.textContent = "Learn More";
+        button.setAttribute = ('aria-label', `Learn more about ${attraction.name}`);
         
         name.textContent = attraction.name;
         address.textContent = attraction.address;
         description.textContent = attraction.description;
         img.setAttribute('src', attraction.img);
         img.setAttribute('alt', attraction.name);
-        img.setAttribute('loading', 'lazy');
+        if (index === 0) {
+            img.setAttribute('loading', 'eager');
+            img.setAttribute('fetchpriority', 'high');
+        } else {
+                img.setAttribute('loading', 'lazy');
+            }
+    
         figure.appendChild(img);
         
 

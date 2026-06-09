@@ -432,6 +432,7 @@ dialog::backdrop {
 #gridArea {
     display: grid;
     grid-template-columns: 1fr;
+    min-height: 80px;
 }
 
 .attraction-card {
