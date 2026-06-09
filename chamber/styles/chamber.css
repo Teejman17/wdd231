@@ -453,6 +453,7 @@ dialog::backdrop {
 .attraction-card h2 {
     margin: 1rem 10px;
     grid-area: name;
+    align-self: start;
 }
 
 .attraction-card img {
