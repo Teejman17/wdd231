@@ -91,7 +91,7 @@
 
     .attraction-card {
         display: grid;
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 300px minmax(0, 1fr);
         grid-template-areas: 
         "img name"
         "img description"
@@ -100,7 +100,11 @@
     }
 
     .attraction-card h2 {
-        width: auto;
+        /* width: 100%; */
+        white-space: normal;
+        /* word-break: break-word; */
+        overflow-wrap: break-word;
+        min-width: 0;
     }
 
     footer {

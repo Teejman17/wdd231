@@ -12,7 +12,7 @@ import { attractions } from "../../data/attractions.mjs";
 const showHere = document.querySelector('#gridArea');
 
 function displayItems(attractions) {
-    attractions.forEach(attraction => {
+    attractions.forEach((attraction, index) => {
         const card = document.createElement('section');
         card.classList.add('attraction-card');
         const name = document.createElement('h2');
@@ -24,27 +24,29 @@ function displayItems(attractions) {
         button.classList.add('attraction-button');
         button.type = "button";
         button.textContent = "Learn More";
-        button.setAttribute = ('aria-label', `Learn more about ${attraction.name}`);
+        button.setAttribute('aria-label', `Learn more about ${attraction.name}`);
         
         name.textContent = attraction.name;
         address.textContent = attraction.address;
         description.textContent = attraction.description;
         img.setAttribute('src', attraction.img);
         img.setAttribute('alt', attraction.name);
+        img.setAttribute('width', '300');
+        img.setAttribute('height', '200');
         if (index === 0) {
             img.setAttribute('loading', 'eager');
             img.setAttribute('fetchpriority', 'high');
         } else {
                 img.setAttribute('loading', 'lazy');
-            }
+        }
     
         figure.appendChild(img);
         
 
-        card.appendChild(name);
         card.appendChild(figure);
-        card.appendChild(address);
+        card.appendChild(name);
         card.appendChild(description);
+        card.appendChild(address);
         card.appendChild(button);
          
         showHere.appendChild(card);

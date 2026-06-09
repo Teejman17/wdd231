@@ -1,6 +1,8 @@
 @media only screen and (min-width: 640px) {
 
+
     .attraction-card {
+        grid-template-columns: 300px 1fr;
         grid-template-areas:
             "img name"
             "img description"
@@ -11,7 +13,7 @@
     .attraction-card figure {
         width: 300px;
         grid-area: img;
-        width: 300px;
+        margin: 0;
         overflow: hidden;
         border-radius: 8px;
         transition: box-shadow 0.3s ease-in-out, transform 0.3s ease-in-out;
@@ -24,13 +26,14 @@
 
     .attraction-card h2 {
         padding: 10px 14px;
-        width: 650px;
+        /* width: auto; */
     }
 
     .attraction-card img {
         width: 100%;
-        height: 100%;
-        object-fit: contain;
+        /* height: 200px; */
+        display: block;
+        /* object-fit: contain; */
     }
 
 

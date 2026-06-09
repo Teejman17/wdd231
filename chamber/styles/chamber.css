@@ -443,6 +443,8 @@ dialog::backdrop {
     overflow: hidden;
 
     display: grid;
+    gap: 1px;
+    /* padding: 1rem; */
     grid-template-areas: 
     "name"
     "img"
@@ -457,10 +459,18 @@ dialog::backdrop {
     align-self: start;
 }
 
+.attraction-card figure {
+    grid-area: img;
+    margin: 0;
+}
+
+
 .attraction-card img {
     width: 100%;
-    height: auto;
+    aspect-ratio: 3 / 2;
     grid-area: img;
+    display: block;
+    object-fit: cover;
 }
 
 .attraction-card p {
@@ -484,6 +494,18 @@ dialog::backdrop {
 
 .attraction-card button:hover {
     background-color: whitesmoke;
+}
+
+#visitDate {
+    min-height: 2rem;
+}
+
+#lastModified {
+    min-height: 1.5rem;
+}
+
+.author {
+    min-height: 120px;
 }
 
 /* FOOTER */
