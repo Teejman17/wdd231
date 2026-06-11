@@ -1,4 +1,4 @@
-@media only screen and (min-width: 725px) {
+@media only screen and (min-width: 800px) {
     header {
         grid-template-columns: auto 1fr auto;
         padding: 1rem;
@@ -26,34 +26,40 @@
 
     .homeContainer {
         display: grid;
-        grid-template-columns: repeat(4, 1fr);
-        gap: 10px;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 16px;
+        max-width: 1400px;
+        margin: 0 auto;
+        align-items: stretch;
     }
+
 
     h1, .hero {
-        grid-column: span 4;
+        grid-column: span 3;
     }
 
-    .events {
-        grid-column: span 2;
+    .hero img {
+        max-height: 600px;
+        object-fit: cover;
     }
+
 
     .weather {
         grid-column: span 1;
+        max-width: none;
     }
 
-    .forecast {
-        grid-column: span 1;
-    }
-
-    .spotlight {
-        grid-column: span 4;
-    }
-    
-    #spotlightCards {
+    .scenarioContainer {
+        grid-column: 2 / 4;
         display: grid;
-        grid-template-columns: repeat(3, 1fr);
-        gap: 15px;
+        grid-template-columns: 1fr 1fr;
+        gap: 16px;
+        padding: 0;
+    }
+
+    .scenario1, .scenario2 {
+        background-color: #FFECD1;
+        margin: 0;
     }
 
     footer {
