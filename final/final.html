@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Southern Utah Offroad Community Home Page</title>
+    <meta name="description"
+        content="Southern Utah Offroad Community home page. This page focuses on the possibilitly of an offroad community, and shows the progress of everything learned in WDD231">
+    <meta name="author" content="TJ McCoy">
+    <meta property="og:title" content="Southern Utah Offroad Community Home Page">
+    <meta property="og:description"
+        content="Southern Utah Offroad Community home page. This page focuses on the possibilitly of an offroad community, and shows the progress of everything learned in WDD231.">
+    <meta property="og:image" content="https://teejman17.github.io/wdd231/chamber/images/ogTag.png">
+    <meta property="og:url" content="https://teejman17.github.io/wdd231/week02/chamber/discover.html">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/final.css">
+    <!-- <link rel="stylesheet" href="styles/medium.css"> -->
+    <link rel="stylesheet" href="styles/larger.css">
+    <link rel="icon" href="favicon_atv.ico">
+    <!-- <script src="scripts/final.js" defer></script> -->
+</head>
+
+<body>
+    <header>
+        <div class="logoContainer">
+            <img src="images/atv-logo.svg" alt="ATV Logo" loading="lazy">
+            <span>Southern Utah Offroad</span>
+        </div>
+        <nav id="navBar" class="navigation">
+            <ul>
+                <li class="current"><a href="#">Home</a></li>
+                <li><a href="#">Community</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+        </nav>
+
+        <button id="hamButton" class="hamburger"></button>
+    </header>
+    <main>
+        <div class="homeContainern">
+            <h1>Southern Utah Offroad Community</h1>
+            <section>
+                <div class="heroContainer">
+                    <img src="images/atv-group.webp" alt="ATV Group">
+                    <h2>Welcome to our ATV Community</h2>
+                    <p>The site is focused on the community of side-by-side / ATV / Offroad vehicles here in St. George, Utah. Any news for the community, ideas of locations to ride, and a couple options for buying or upgrading rigs can be found here.</p>
+                </div>
+            </section>
+            <section class="weather">
+                <div>
+                    <h2>Current Weather</h2>
+                    <p id="currentTemp"></p>
+                    <p id="description"></p>
+                    <p>High: <span id="high"></span> </p>
+                    <p>Low: <span id="low"></span></p>
+                    <p>Humidity: <span id="humidity"></span></p>
+                    <p>Sunrise: <span id="sunrise"></span></p>
+                    <p>Sunset: <span id="sunset"></span></p>
+                    <img id="graphic" src="iconsrc" alt="desc">
+                </div>
+
+            </section>
+        </div>
+        <div class="scearioContainer">
+            <h3 class="scenario1"> - What time of day is best to go riding during the summer?</h3>
+            <p> Many of our riders prefer to go either early in the morning, or more towards the late afternoon evenings, between 5pm - 7pm. Always remember to plan ahead and make sure you don't go too far into the trail by the time it gets dark. </p>
+            <h3 class="scenario2"> - Is there a place to meet new people while riding?</h3>
+            <p>The community is very welcoming. Feel free to spark up a conversation with any rider you see on the trails, or anywhere in the city. There are some Facebook pages you could join as well if interested. Just look for Southern Utah Offroading.</p>
+        </div>
+    </main>
+    <footer>
+        <div class="contact">
+            <p>Southern Utah Offroad</p>
+            <p>St. George, Utah and surrounding area</p>
+            <p>contact@offroad.com</p>
+            <p>435-435-4350</p>
+        </div>
+    
+        <div class="social">
+            <a href="https://github.com/Teejman17/wdd231"><img src="images/github.svg" alt="github" width="16" height="16"></a>
+            <a href="https://www.linkedin.com/in/tracy-mccoy-928490172/"><img src="images/linkedin.svg" alt="linkedin" width="16" height="16"></a>
+            <a href="https://www.facebook.com/" target="_blank"><img src="images/facebook.svg" alt="facebook" width="16" height="16"></a>
+            <a href="https://www.instagram.com/" target="_blank"><img src="images/instagram.svg" alt="instagram" width="16" height="16"></a>
+        </div>
+    
+        <div class="author">
+            <!-- <p>WDD231 Class Final</p> -->
+            <p>TJ McCoy</p>
+            <p>&copy; <span id="currentYear"></span> St. Southern Utah Offroad</p>
+            <p id="lastModified"></p>
+        </div>
+    </footer>
+    <!-- <script src="scripts/final.js"></script> -->
+</body>
+</html>
