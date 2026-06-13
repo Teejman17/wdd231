@@ -8,6 +8,7 @@
             "img description"
             "img address"
             "button button";
+        grid-template-rows: auto 1fr auto auto;
     }
 
     .attraction-card figure {
@@ -38,7 +39,12 @@
 
 
     .attraction-card button {
-        grid-area: button;
-        margin-left: 20px;
+        grid-column: 1;
+        justify-self: start;
+        /* width: 140px; */
+        text-align: center;
+        margin: 15px 15px 20px 20px;
+        /* grid-area: button; */
+        /* margin-left: 20px; */
     }
 }
