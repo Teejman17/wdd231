@@ -227,8 +227,8 @@ h2 {
     gap: 15px;
 }
 
-#trails p,
-#vendors p {
+.trails p,
+.vendors p {
     margin: 1rem;
 }
 

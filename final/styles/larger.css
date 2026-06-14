@@ -1,4 +1,8 @@
 @media only screen and (min-width: 800px) {
+    * { 
+        box-sizing: border-box;
+    }
+    
     header {
         grid-template-columns: auto 1fr auto;
         padding: 1rem;
@@ -62,7 +66,48 @@
         margin: 0;
     }
 
-    
+    #vendors, #trails {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 15px;
+        padding: 50px;
+        align-items: stretch;
+    }
+
+    #vendors img, #trails img {
+        display: block;
+        width: 100%;
+        max-height: 200px;
+        aspect-ratio: 3 / 2;
+        object-fit: cover;
+        margin: 0;
+        padding: 0;
+    } 
+
+    #vendors section, #trails section {
+        display: flex;
+        flex-direction: column;
+        /* height: 100%; */
+        border-bottom: none;
+        border: 1.5px solid #2B2D2F;
+        border-radius: 8px;
+        padding: 15px;
+        margin: 0;
+    }
+
+    #vendors h3, #trails h3 {
+        margin: 0 0 1rem 0;
+        padding: 10px;
+        text-align: center;
+    }
+
+    #trails section:last-child,
+    #vendors section:last-child {
+        border: 1.5px solid #2B2D2F;
+        border-radius: 8px;
+        margin-bottom: 0;
+    }
+
 
     footer {
         display: grid;

@@ -47,7 +47,7 @@
 
     "trails": [
         {
-            "trailName": "Black Mountain Petroglyph via St. George",
+            "trailName": "Black Mountain Petroglyph",
             "trailDescription": "This trail is a perfect beginner course. In fact, any off-road vehicle can take this trail. A good chance to get to know your rig! Multiple occasions to see a variety of petroglyphs close to the trail itself",
             "distance": "6.9 Miles",
             "img": "images/black-mountain.webp"
@@ -96,7 +96,7 @@
         },
         {
             "trailName": "Sunshine Loop",
-            "trailDescription": "This loop is a good ride for any rig. You can follow the trail itself, or go exploring on any of the other side trails available. Or even make your own trail throught the typical desert landscap and different rock formations.",
+            "trailDescription": "This loop is a good ride for any rig. You can follow the trail itself, or go exploring on any of the other side trails available. Or even make your own trail throught the typical desert landscape and different rock formations.",
             "distance": "26.5 Miles",
             "img": "images/sunshine-loop.webp"
         }
