@@ -219,6 +219,79 @@ h2 {
     margin-bottom: 16px;
 }
 
+/* COMMUNITY PAGE */
+
+#trails, #vendors {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+#trails p,
+#vendors p {
+    margin: 1rem;
+}
+
+#trails h3,
+#vendors h3 {
+    margin: 1rem;
+}
+
+#trails img,
+#vendors img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: auto;
+    padding: 15px;
+}
+
+#trails section,
+#vendors section {
+    border-bottom: 2px dashed #78290F;
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+}
+
+#trails section:last-child,
+#vendors section:last-child {
+    border-bottom: none;
+    margin-bottom: 0;
+}
+
+/* TRAIL SECTION */
+
+.trails {
+    background-color: #FFECD1;
+    border: 1px solid #2B2D2F;
+    border-radius: 8px;
+    margin: 10px 10px 25px 10px;
+    padding: 8px;
+}
+
+
+
+/* VENDOR SECTION */
+
+.vendors {
+    background-color: #F4F1EA;
+    border: 1px solid #2B2D2F;
+    border-radius: 8px;
+    margin: 10px 10px 25px 10px;
+    padding: 8px;
+}
+
+.vendors a {
+    text-decoration: none;
+    margin: 1rem;
+}
+
+.vendors a:hover {
+    color: #78290F;
+    text-decoration: underline;
+}
+
+
 
 
 /* FOOTER */

@@ -49,55 +49,55 @@
         {
             "trailName": "Black Mountain Petroglyph via St. George",
             "trailDescription": "This trail is a perfect beginner course. In fact, any off-road vehicle can take this trail. A good chance to get to know your rig! Multiple occasions to see a variety of petroglyphs close to the trail itself",
-            "distace": "6.9 Miles",
+            "distance": "6.9 Miles",
             "img": "images/black-mountain.webp"
         },
         {
             "trailName": "Warner Valley Dinosaur Tracks",
             "trailDescription": "Another beginner trail that offers views of the amazing desert landscape southern Utah has to offer. Once you reach the end of the trail you can take some time to look at the well-known dinosaur tracks.",
-            "distace": "8.4 miles",
+            "distance": "8.4 miles",
             "img": "images/dinosaur-tracks.webp"
         },
         {
             "trailName": "Bobsled Loop",
             "trailDescription": "A short but incredibly fun trail, amusement for any type of rider. Full of high corners and tight turns, and it's all banked perfectly for a quick run. Get your tires dirty in some of the red dirt that can be found in southern Utah.",
-            "distace": "1.5 Miles",
+            "distance": "1.5 Miles",
             "img": "images/bobsled-loop.webp"
         },
         {
             "trailName": "Mount Trumbull School House",
             "trailDescription": "If you're looking for a relaxed, long ride. This is the trail to choose. At the end of the trail you'll find a glimpse of the past, a one-room school house. The secret to this trail is a dream for all riders, with more than 10 side trails stemming off this one. A perfect opportunity to spend a day in the dirt!",
-            "distace": "49.5 Miles",
+            "distance": "49.5 Miles",
             "img": "images/school-house.webp"
         },
         {
             "trailName": "Toquerville Falls",
             "trailDescription": "This trail is a must see! Winding through the canyon with views of the mountains with the main attraction being the cascading waterfalls in the middle of desert landscape.",
-            "distace": "5.9 Miles",
+            "distance": "5.9 Miles",
             "img": "images/toquerville-falls.webp"
         },
         {
             "trailName": "Gunlock Reservoir",
             "trailDescription": "On the edge of the small body of water itself, this trail is one for the membory books. A relaxed ride that offers unforgettable scenery with a little bit of sand and dirt. Perfect for getting a little more time to get behind the wheel of your rig.",
-            "distace": "5.8 Miles",
+            "distance": "5.8 Miles",
             "img": "images/gunlock.webp"
         },
         {
             "trailName": "East Rim Trail",
             "trailDescription": "This trail is one of a kind! It's less of a trail and more of an open area experience. A wide-open trail network with plenty of hills, sand, and breathtaking views of cliffs at edge of Sand Mountain.",
-            "distace": "9.5 Miles",
+            "distance": "9.5 Miles",
             "img": "images/east-rim.webp"
         },
         {
             "trailName": "Rattlesnake Gulch",
             "trailDescription": "This trail is actually connected to Toquerville Falls. A great side trail that littered with rocks that'll bump you around. Amazing vertial rock ledges and big boulders can be seen while on the trail.",
-            "distace": "7.8 Miles",
+            "distance": "7.8 Miles",
             "img": "images/rattlesnake-gulch.webp"
         },
         {
             "trailName": "Sunshine Loop",
             "trailDescription": "This loop is a good ride for any rig. You can follow the trail itself, or go exploring on any of the other side trails available. Or even make your own trail throught the typical desert landscap and different rock formations.",
-            "distace": "26.5 Miles",
+            "distance": "26.5 Miles",
             "img": "images/sunshine-loop.webp"
         }
     ]
