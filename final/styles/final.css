@@ -293,8 +293,99 @@ h2 {
     text-decoration: underline;
 }
 
+/* FORM SECTION */
 
+.form h2 {
+    text-align: center;
+}
 
+.join {
+    padding: 15px;
+    margin: 10px;
+    background-color: #F4F1EA;
+    border: 1px solid #2B2D2F;
+    border-radius: 8px;
+    text-align: center;
+    /* margin: 10pz; */
+}
+.modal {
+    display: flex;
+    justify-content: center;
+    margin: 15px 0;
+}
+
+.modalOpen,
+.modalClose {
+    background-color: #78290F;
+    color: #FFECD1;
+    border: 1px solid #bbb;
+    border-radius: 6px;
+    cursor: pointer;
+    margin: 0 10px;
+    padding: 6px;
+}
+
+.modalOpen:hover {
+    background-color: #2B2D2F;
+    color: #F4F1EA;
+}
+
+.form {
+    background-color: #FFECD1;
+    margin: 15px;
+    padding: 10px;
+    border: 1px solid #78290F;
+    border-radius: 8px;
+}
+
+form label {
+    display: block;
+    margin: 5px;
+    /* margin-bottom: 1rem; */
+    padding: 10px;
+}
+
+form input[type="text"],
+form input[type="email"],
+form input[type="tel"],
+form select {
+    display: block;
+    width: 100%;
+    padding: 4px;
+    border-radius: 8px;
+}
+
+form textarea {
+    display: block;
+    width: 100%;
+    border-radius: 8px;
+    padding: 25px 4px;
+}
+
+form input[type="submit"] {
+    margin: 12px auto;
+    display: block;
+    padding: 5px;
+    cursor: pointer;
+    border-radius: 8px;
+    background-color: #2B2D2F;
+    color: #F4F1EA;
+}
+
+form input[type="submit"]:hover {
+    background-color: #78290F;
+    color: #FFECD1;
+}
+
+form input:required,
+form select:required {
+    border-left: 6px solid #A4031F;
+}
+
+form input:required:valid,
+form select:required:valid {
+    border-color: forestgreen;
+}   
 
 /* FOOTER */
 

@@ -22,7 +22,7 @@
     <!-- <link rel="stylesheet" href="styles/medium.css"> -->
     <link rel="stylesheet" href="styles/larger.css">
     <link rel="icon" href="favicon_atv.ico">
-    <!-- <script src="scripts/final.js" defer></script> -->
+    <script src="scripts/contact.js" defer></script>
 </head>
 
 <body>
@@ -33,9 +33,9 @@
         </div>
         <nav id="navBar" class="navigation">
             <ul>
-                <li class="current"><a href="#">Home</a></li>
-                <li><a href="#">Community</a></li>
-                <li><a href="#">Contact Us</a></li>
+                <li><a href="https://teejman17.github.io/wdd231/final/index.html">Home</a></li>
+                <li><a href="https://teejman17.github.io/wdd231/final/community.html">Community</a></li>
+                <li class="current"><a href="https://teejman17.github.io/wdd231/final/contact.html">Contact Us</a></li>
             </ul>
         </nav>
 
@@ -43,16 +43,27 @@
     </header>
     <main>
         <h1>Contact Us</h1>
-        
+        <p class="join">Feel free to join our community and start getting your tires dirty! The community is full of friendly neighbors and there's always room for more! And the best part, it's FREE! So what are you waiting for? Go ahead and sign up using the form below</p>
+        <div class="modal">
+            <button type="button" class="modalOpen" >Contact Us</button>
+            <dialog>
+                <h3>Contact Information</h3>
+                <p>Feel free to reach out for any question or concerns</p>
+                <p>Email: contact@offroad.com</p>
+                <p>Phone: (435)-435-4350</p>
+                <button type="button" class="modalClose">Close</button>
+            </dialog>
+        </div>
         <div class="form">
             <h2>Join our Community!</h2>
             <form method="get" action="thankyou.html" class="designOne">
                 <label>First Name <input type="text" name="first" required autocomplete="given-name" title="Your First Name"></label>
                 <label>Last Name <input type="text" name="last" required autocomplete="family-name" title="Your Last Name"></label>
-                <label>TItle <input type="text" name="title" autocomplete="organization-title" title="Your Organizational Title" pattern="[A-Za-z\s\-]{7,}"></label>
                 <label>Email <input type="email" name="email" required autocomplete="email" placeholder="myemail@gmail.com" title="Your Email"></label>
-                <label>Cell Phone <input type="tel" name="phone" required autocomplete="tel" placeholder="123-456-7890"
-                        title="Your Phone Number"></label>
+                <label>Cell Phone <input type="tel" name="phone" required autocomplete="tel" placeholder="123-456-7890" title="Your Phone Number"></label>
+                <label>Comments
+                    <textarea name="comments" id="comments"></textarea>
+                </label>
         
                 <input type="hidden" name="timestamp" id="timestamp">
         
@@ -79,14 +90,13 @@
                     width="16" height="16"></a>
         </div>
 
-        <div class="author">
-            <!-- <p>WDD231 Class Final</p> -->
+        <div class="contact">
             <p>TJ McCoy</p>
             <p>&copy; <span id="currentYear"></span> St. Southern Utah Offroad</p>
             <p id="lastModified"></p>
         </div>
     </footer>
-    <script src="scripts/final.js"></script>
+    <!-- <script src="scripts/contact.js"></script> -->
 </body>
 
 </html>
