@@ -69,8 +69,8 @@
     #vendors, #trails {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
+        min-height: 400px;
         gap: 15px;
-        padding: 50px;
         align-items: stretch;
     }
 
@@ -95,7 +95,7 @@
         margin: 0;
     }
 
-    #vendors h3, #trails h3 {
+    #vendors h2, #trails h2 {
         margin: 0 0 1rem 0;
         padding: 10px;
         text-align: center;

@@ -14,7 +14,7 @@ const displayTrails = (trails) => {
     trails.forEach((trail) => {
     
         const card = document.createElement('section');
-        const name = document.createElement('h3');
+        const name = document.createElement('h2');
         const img = document.createElement('img');
         const distance = document.createElement('p');
         const desc = document.createElement('p');
@@ -52,7 +52,7 @@ const displayVendors = (vendors) => {
     vendors.forEach((vendor) => {
 
         const card = document.createElement('section');
-        const name = document.createElement('h3');
+        const name = document.createElement('h2');
         const img = document.createElement('img');
         const address = document.createElement('p');
         const phone = document.createElement('p');
