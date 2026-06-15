@@ -330,6 +330,24 @@ h2 {
     color: #F4F1EA;
 }
 
+.modalClose:hover {
+    background-color: #2B2D2F;
+    color: #F4F1EA;
+}
+
+dialog::backdrop {
+    background-color: rgba(0, 0, 0, 0.3);
+    backdrop-filter: blur(5px);
+}
+
+dialog {
+    background-color: #F4F1EA;
+    border-radius: 8px;
+    padding: 15px;
+    max-width: 500px;
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.25);
+}
+
 .form {
     background-color: #FFECD1;
     margin: 15px;
@@ -386,6 +404,22 @@ form input:required:valid,
 form select:required:valid {
     border-color: forestgreen;
 }   
+
+/* THANK YOU PAGE */
+
+.thankYou {
+    padding: 10px;
+    margin: 15px auto;
+}
+
+#submittedData {
+    border-bottom: 2px dashed #2B2D2F;
+    border-top: 2px dashed #2B2D2F;
+}
+
+#submittedData p {
+    margin: 20px;
+}
 
 /* FOOTER */
 
