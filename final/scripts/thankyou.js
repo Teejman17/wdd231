@@ -14,8 +14,7 @@ document.querySelector('#submittedData').innerHTML = `<p>Full Name: ${submittedI
 <p>Your Email: ${submittedInfo.get('email')}</p>
 <p></p>
 <p>Cell Phone: ${submittedInfo.get('phone')}</p>
-<p></p>
-<p>Organization: ${submittedInfo.get('organization')}</p >`
+<p></p>`
 
 const year = document.getElementById('currentYear');
 const currentYear = new Date().getFullYear();
